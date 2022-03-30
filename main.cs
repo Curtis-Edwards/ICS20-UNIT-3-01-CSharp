@@ -19,7 +19,7 @@ class Program
         baseb = Convert.ToInt32(Console.ReadLine());
         Console.Write("Height: ");
         height = Convert.ToInt32(Console.ReadLine());
-        area = ((basea + baseb) / 2 ) * height;
+        area = ((basea + baseb) / 2) * height;
 
         Console.WriteLine("");
         Console.WriteLine("Area: " + area + "cm²");
